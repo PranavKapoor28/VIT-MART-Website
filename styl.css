@@ -1,0 +1,226 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial;
+    }
+    #header
+    {
+    border: 1px solid black;
+    height: 250px;
+    width: 100%;  
+    text-align: center; 
+    background-color: #393E33;
+    grey;
+    }
+    
+    #main #contactus{
+    margin-top: 87px;
+height: 350px;
+    background-color: #056e49;
+    }
+
+   #main #contactus h1{
+    margin-left: 620px;
+padding: 50px;
+}
+    
+   #main #contactus p{
+text-align:center;
+}
+
+.btn1 {
+ border: 3px solid black;
+margin-left: 700px;
+background-color: white;
+}
+.btn1 a{
+color: black;
+}
+
+#main #aboutus{
+    margin-top: -21px;
+height: 350px;
+    background-color: #69AB14;
+    }
+
+#main #aboutus h1{
+margin-left: 630px;
+padding: 50px;
+}
+    
+   #main #aboutus p{
+text-align:center;
+}
+
+.btn {
+ border: 3px solid black;
+margin-left: 400px;
+background-color: white;
+}
+.btn a{
+color: black;
+}
+
+    #header #logo img{
+    margin-top: 25px;
+    margin-left: -1100px;
+    height: 180px;
+    width: 390px;
+    }
+    
+    #header h1{
+    margin-top: -120px;
+    color: yellow;
+    font-size: 60px;
+    shadow: 20px;
+    }
+    
+    #main .mySlides img{
+        width: 100%;
+        height: 250px;
+    }
+    
+    #header h3{
+    margin-top: -20px;
+    color: yellow;
+    font-size: 20px;
+    }
+    #wrapper #header2{
+    height: 50px;
+    background-color: #585957;
+    }
+    
+    #header2 #nav{
+    margin-left: 950px;
+    display: inline;
+    }
+    
+    #header2 #nav ul{
+    padding: 10px;
+    }
+    #header2 #nav ul li{
+    list-style-type: none;
+    margin-top: 12px;
+    padding: 15px;
+    display: inline;    }
+    
+    #header2 #nav a{
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    padding: 7px;
+    }
+    
+    #header2 #nav a:hover{
+    color:blue;
+    }
+    
+    #wrapper{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px auto;
+    }
+    
+    #main{
+    border: 1px solid black;
+    height: 550px;
+    width: auto;
+    background-color: black;
+    } 
+    
+    #main h1{
+    margin-top: 20px;
+    margin-left: 400px;
+color: white;
+    }
+    
+    #main h3{
+color: white;
+    margin-left: 400px;
+    }
+    
+    #main #list ul li{
+    margin-top: 20px;
+    margin-left: 350px;
+    background-color: lightblue;
+    text-decoration: none;
+    list-style-type: none;
+    }
+    
+    #main #list a{
+    color: red;
+    font-size: 23px;
+    
+    }
+    #main #list a:hover{
+    color: green;
+    }
+    
+    #wrapper #main img{
+    float: left;
+    width: 340px;
+    height: 350px;
+    }
+    
+    #footer{
+    border: 1px solid black;
+    height: 50px;
+    text-align: center
+    background-color: #585957;
+    }
+    
+    #wrapper #table1{
+    width: 800px;
+    margin-left: 80px;
+    margin-top: 100px;
+    } 
+    
+    #wrapper #table1 td{
+    background: lightgrey;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    }
+    
+    #wrapper #table1 td h2{
+    text-align: center;
+    font-family: arial;
+    font-size: 18px
+    }
+
+#promo{
+background-color: black;
+margin-top: -20px;
+height: 300px;
+}
+
+#promo h1{
+margin-left: 550px;
+padding: 25px;
+}
+#promo h2{
+margin-left: 680px;
+color:white;
+}
+#promo .promocode{
+margin-left: 620px;
+margin-top: 60px;
+}
+
+#promo .btn2{
+background-color: lightgreen;
+border:none;
+}
+#promo .btn2 a{
+color: black;
+}
+#promo .btn2:hover{
+background-color: red;
+border:none;
+}
+
+#promo .btn2 a:hover{
+color:white;
+}
