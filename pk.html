@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http/www.w3.org/1999/xhtml">
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <title>WELCOME</title>
 <meta name="description" content="online course school"/>
@@ -12,74 +12,128 @@
 
 <link rel="stylesheet" href="styl.css" type="text/css"/>
 </head>
+<style>
+	.navvv ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+	
+	.navvv li {
+	  float: left;
+	}
+	
+	.navvv li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	.navvv li a:hover:not(.active) {
+	  background-color: #111;
+	}
+	
+	.navvv .active {
+	  background-color: #4CAF50;
+	}
+	body{
+		background-color: rgb(255, 235, 210);
+	}
+	.padding{
+		padding: 20px;
+		margin: 20px;
+	}
+	.promoo{
+		margin: 10px;
+		font-size: 32px;
+		background-color: rgb(54, 6, 66);
+		color: white;
+	}
+	.promoo h1{
+		background-color: rgb(54, 6, 66);
+
+	}
+	</style>
 <body>
+	<div class="navvv padding">
+		<ul>
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		  </ul>
+
+	</div>	
 <div id="header">
 	<div id="logo"><img src="images/vit.jpg" width="200px"/></div>
 	<h1> VIT Mart</h1>
 	<h3> (A place to satisfy all the needs)</h3>
 	
 </div>
-<div id="wrapper">
-		<div id="header2">
-				<div id="nav">
-					<ul>
-					<li><a href="pk.html">HOME</a></li><th>
-					<li><a href="shop.html">SHOP</a></li>
-					<li><a href="contact.html">CONTACT</a></li></th>
-					</ul>
-				</div>
-				</div>
-<div id="main">
-<section>
-  <img class="mySlides" src="images/g.jpg"/>
-  <img class="mySlides" src="images/b.jpg"/>
-  <img class="mySlides" src="images/s.jpg"/>
-</section>
-<script>
-	// Automatic Slideshow - change image every 3 seconds
-	var myIndex = 0;
-	carousel();
+<div class ="container">
 	
-	function carousel() {
-	  var i;
-	  var x = document.getElementsByClassName("mySlides");
-	  for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";
-	  }
-	  myIndex++;
-	  if (myIndex > x.length) {myIndex = 1}
-	  x[myIndex-1].style.display = "block";
-	  setTimeout(carousel, 3000);
-	}
-	</script>
-<h1>What do you want to buy???</h1>
-<div id="cat">
-<h3>CATEGORIES:-</h3>
-<div id="list">
-<ul>
-	<li><a href="#">1. GROCCERY</a></li>
-	<li><a href="#">2. BEDDINGS</a></li>
-	<li><a href="#">3. STATIONARY</a></li>
-</ul>
-</div>
-</div>
-<div id="contactus">
-	<h1><b>Contact Us</b></h1>
-	<p><b>Have any queries? A simple collaboration with us can solve your problem.<br>Just press the Contact-Us Button.</b></p>
-	<button type="submit" class="btn1"><a href="contact.html">Contact Us</a></button>
-</div>
+		<section>
+		<img class="mySlides" src="images/g.jpg" width="500" height="500"/>
+		<img class="mySlides" src="images/b.jpg" width="500" height="500"/>
+		<img class="mySlides" src="images/s.jpg" width="500" height="500"/>
+	  </section>
+	  <script>
+		  // Automatic Slideshow - change image every 3 seconds
+		  var myIndex = 0;
+		  carousel();
+		  
+		  function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			  x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+			setTimeout(carousel, 3000);
+		  }
+		  </script>
+	
+		<h1>What do you want to buy???</h1>
+	  <div id="cat">
+	  <h3>CATEGORIES:-</h3>
+	  <div id="list">
+	  <ul>
+		  <li><a href="#">1. GROCCERY</a></li>
+		  <li><a href="#">2. BEDDINGS</a></li>
+		  <li><a href="#">3. STATIONARY</a></li>
+	  </ul>
+	  </div>
+	  </div>
+	  <div id="contactus">
+		  <h1><b>Contact Us</b></h1>
+		  <p><b>Have any queries? A simple collaboration with us can solve your problem.<br>Just press the Contact-Us Button.</b></p>
+		  <button type="submit" class="btn1"><a href="contact.html">Contact Us</a></button>
+	  </div>
+	  
+	  <div id="aboutus">
+			  <img src="images/rel.jpg"/>
+			  <h1><b>About Us</b></h1>
+			  <p><b>Still confused about our relationship?Get to know about us more.<br>Press the button and get to know about our address,location,and our exclusive range of products and ratings.</b></p>
+			  <button type="submit" class="btn"><a href="about.html">About Us</a></button>
+		  </div>
+	  <div id="promoo">
+		  <h1>Have a Promo Code??</h1>
+		  <h2>Apply Here</h2>
+		  <input type="text" class="promocode" placeholder="Enter The Promocode">
+		  <button type="submit" class="btn2"><a href="#">SUBMIT</a></button>
+	  </div>
+	  <div id="footer">@; ALL RIGHTS RESERVED.</div>
+	  
 
-<div id="aboutus">
-		<img src="images/rel.jpg"/>
-		<h1><b>About Us</b></h1>
-		<p><b>Still confused about our relationship?Get to know about us more.<br>Press the button and get to know about our address,location,and our exclusive range of products and ratings.</b></p>
-		<button type="submit" class="btn"><a href="about.html">About Us</a></button>
-	</div>
-<div id="promo">
-	<h1>Have a Promo Code??</h1>
-	<h2>Apply Here</h2>
-	<input type="text" class="promocode" placeholder="Enter The Promocode">
-	<button type="submit" class="btn2"><a href="#">SUBMIT</a></button>
+	
+	  
+
 </div>
-<div id="footer">@; ALL RIGHTS RESERVED.</div>
 </body>
+</html>
